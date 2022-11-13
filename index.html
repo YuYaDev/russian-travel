@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
-<body>
+<body class="page">
     <header class="header">
         <a href="#" class="header__logo">
             <img class="header__logo-pic" src="images/header-logo.svg" alt="Логотип 'Россия'">
@@ -12,7 +14,7 @@
 
         <ul class="header__lang-list">
             <li class="header__lang-item">
-                <a class="header__lang-link">RU</a>
+                <a class="header__lang-link header__lang-item_status_active">RU</a>
         </li>
             <li class="header__lang-item">
                 <a class="header__lang-link">EN</a>
@@ -43,23 +45,23 @@
 
             <ul class="intro__list">
                 <li class="intro__list-item">
-                    <span class="intro__list-text">Часовых поясов</span> 11
+                    <span class="intro__list-accent">Часовых поясов</span> 11
                 </li>
 
                 <li class="intro__list-item">
-                    <span class="intro__list-text">Объектов природного наследия ЮНЕСКО </span> 12
+                    <span class="intro__list-accent">Объектов природного наследия ЮНЕСКО </span> 12
                 </li>
 
                 <li class="intro__list-item">
-                    <span class="intro__list-text">Объектов культурного наследия ЮНЕСКО</span> 16
+                    <span class="intro__list-accent">Объектов культурного наследия ЮНЕСКО</span> 16
                 </li>
 
                 <li class="intro__list-item">
-                    <span class="intro__list-text">Природных заповедников</span> 105
+                    <span class="intro__list-accent">Природных заповедников</span> 105
                 </li>
 
                 <li class="intro__list-item">
-                    <span class="intro__list-text">Аэропортов</span> 241
+                    <span class="intro__list-accent">Аэропортов</span> 241
                 </li>
             </ul>
         </section>
@@ -89,6 +91,8 @@
                     <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                 </div>
 
+                <img class="place__image" src="./images/places/place-kolsky.jpg" alt="Куршская коса">
+
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта
                         — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -110,6 +114,8 @@
                     <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                 </div>
 
+                <img class="place__image" src="./images/places/place-kolsky.jpg" alt="Кольский">
+
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
                         от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -120,8 +126,6 @@
                         скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние
                         начинает сбываться с билетом в Мурманск.</p>
                 </div>
-
-                <img class="place__image" src="./images/places/place-kolsky.jpg" alt="Кольский">
             </article>
 
             <article class="place">
@@ -132,6 +136,8 @@
                     <h3 class="place__url-heading">URL</h3>
                     <a class="place__link" href=" https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
                 </div>
+
+                <img class="place__image" src="./images/places/place-altai.jpg" alt="Алтай">
 
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Алтай — одно из красивейших мест в России.
@@ -144,8 +150,6 @@
                         над хребтами летают орлы, а на равнинах пасутся косули.
                         И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
-
-                <img class="place__image" src="./images/places/place-altai.jpg" alt="Алтай">
             </article>
 
             <article class="place">
@@ -157,6 +161,8 @@
                     <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                 </div>
 
+                <img class="place__image" src="./images/places/place-winter-baikal.jpg" alt="Зимний Байкал">
+
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
                         что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -166,8 +172,6 @@
                         развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля»
                         был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
-
-                <img class="place__image" src="./images/places/place-winter-baikal.jpg" alt="Зимний Байкал">
             </article>
 
             <article class="place">
@@ -179,6 +183,8 @@
                     <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
                 </div>
 
+                <img  class="place__image" src="./images/places/place-karelia.jpg" alt="Карелия">
+
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                         сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
@@ -188,15 +194,18 @@
                         тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями.
                         Чтобы все знали, кто тут хозяин.</p>
                 </div>
-
-                <img  class="place__image" src="./images/places/place-karelia.jpg" alt="Карелия">
             </article>
         </section>
 
         <section class="cover">
             <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">>По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+
+                <div class="cover__text">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на электричках.</p>
+                </div>
+
             </a>
         </section>
 
