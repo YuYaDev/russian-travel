@@ -5,18 +5,18 @@
 
 
 @media (max-width: 1024px) {
-    .info {
+    .intro {
         max-width: calc(100% - 96px);
     }
 }
 @media (max-width: 768px) {
-    .info {
+    .intro {
         margin: 0 auto 88px;
         max-width: calc(100% - 48px);
     }
 }
 @media (max-width: 320px) {
-    .info {
+    .intro {
         margin: 0 auto 64px;
         max-width: calc(100% - 32px);
     }

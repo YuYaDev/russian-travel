@@ -7,7 +7,7 @@
 
 
 @media (max-width: 320px) {
-    .info__title {
+    .intro__title {
         max-width: 84%;
         font-size: 32px;
         line-height: 35px;
