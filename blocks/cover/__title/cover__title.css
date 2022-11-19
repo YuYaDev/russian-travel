@@ -8,13 +8,13 @@
     z-index: 2;
 }
 
-@media (min-width: 426px) and (max-width: 560px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .cover__title {
         font-size: 32px;
         line-height: 36px;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .cover__title {
         margin: 0 0 16px;
         width: 250px;
