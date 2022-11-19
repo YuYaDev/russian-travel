@@ -4,6 +4,12 @@
     line-height: 28px;
     text-decoration: none;
     text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+    transition: opacity 1s;
 }
 
 @media (max-width: 767px) {

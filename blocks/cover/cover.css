@@ -1,6 +1,8 @@
 .cover {
     margin: 0 auto 92px;
     max-width: 1184px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

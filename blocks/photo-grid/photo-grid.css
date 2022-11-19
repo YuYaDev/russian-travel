@@ -3,15 +3,14 @@
     display: grid;
     max-width: calc(100% - 96px);
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    gap: 16px;
 }
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .photo-grid {
-        max-width: calc(100% - 96px);
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 14px;
+        gap: 14px;
     }
 }
 
@@ -20,7 +19,7 @@
         margin: 0 auto 88px;
         max-width: calc(100% - 48px);
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 16px;
+        gap: 16px;
     }
 }
 
