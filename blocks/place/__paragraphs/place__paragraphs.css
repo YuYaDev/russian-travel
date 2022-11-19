@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .place__paragraphs {
         margin: 0 auto;
         max-width: calc(100% - 32px);
