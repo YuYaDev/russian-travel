@@ -13,12 +13,12 @@
         margin: 28px auto 48px;
     }
 }
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .header {
         max-width: calc(100% - 48px);
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .header {
         max-width: calc(100% - 32px);
     }

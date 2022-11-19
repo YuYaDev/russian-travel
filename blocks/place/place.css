@@ -12,14 +12,14 @@
     }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .place {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 48px 28px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .place {
         grid-template-columns: 1fr;
         gap: 32px 0;

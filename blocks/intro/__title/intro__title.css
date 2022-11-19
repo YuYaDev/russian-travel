@@ -6,7 +6,7 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .info__title {
         max-width: 84%;
         font-size: 32px;
