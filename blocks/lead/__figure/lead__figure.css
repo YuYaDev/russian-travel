@@ -3,7 +3,7 @@
 }
 
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .lead__figure {
         margin: 0 auto;
         max-width: 100%;

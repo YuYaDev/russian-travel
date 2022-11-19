@@ -28,13 +28,13 @@
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .cover__overlay {
         min-height: 640px;
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .cover__overlay {
         min-height: 480px;
     }

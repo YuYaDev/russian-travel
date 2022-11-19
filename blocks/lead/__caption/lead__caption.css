@@ -8,7 +8,7 @@
 }
 
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .lead__caption {
         margin: 0 auto 0 24px;
         max-width: 100%;

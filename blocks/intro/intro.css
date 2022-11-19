@@ -4,12 +4,12 @@
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .info {
         max-width: calc(100% - 96px);
     }
 }
-@media (min-width:321px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .info {
         margin: 0 auto 88px;
         max-width: calc(100% - 48px);
