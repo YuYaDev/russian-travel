@@ -12,11 +12,12 @@
 @media (max-width: 768px) {
     .lead {
         max-width: 100%;
+        margin-bottom: 88px;
     }
 }
 
 @media (max-width: 320px) {
     .lead {
-        margin: 0 auto 64px;
+        margin-bottom: 64px;
     }
 }

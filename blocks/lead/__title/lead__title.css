@@ -11,8 +11,8 @@
 @media (max-width: 768px) {
     .lead__title {
         font-size: 12.5vw;
-        line-height: 12vw;
         max-width: 100%;
+        margin-bottom: 32px;
     }
 }
 

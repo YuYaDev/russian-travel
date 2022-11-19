@@ -15,3 +15,9 @@
         line-height: 18px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        max-width: 440px;
+    }
+}
