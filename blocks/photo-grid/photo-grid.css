@@ -28,5 +28,6 @@
         margin: 0 auto 64px;
         max-width: calc(100% - 32px);
         grid-template-columns: 1fr;
+        gap: 12px;
     }
 }
