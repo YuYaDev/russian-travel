@@ -8,6 +8,7 @@
 
 @media (max-width: 1024px) {
     .place {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         margin-bottom: 80px;
         gap: 48px 32px;
     }
