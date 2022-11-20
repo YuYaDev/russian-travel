@@ -8,7 +8,7 @@
     z-index: 2;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 356px) {
     .cover__title {
         margin: 0 0 16px;
         width: 250px;
